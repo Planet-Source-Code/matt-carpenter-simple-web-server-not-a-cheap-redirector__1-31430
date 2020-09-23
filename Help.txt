@@ -1,0 +1,16 @@
+How it works--
+
+its winsock control listens on port 80 waiting for a computer to connect.
+When one does, if the computer is requesting the homepage, it opens the homepage
+file in the rich text box control, then sends the text in it to the client.
+when the client requests a picture, the server opens the pic in the richtextbox control
+then sends that to the client. I added a feature where you can change the root directory
+and edit files, but it is not needed. Take some time to look at the code to figure out
+exactaly how i did it.
+
+To test it on your computer---
+
+run the webserver with a root directory that has an 'index.html' file in it. 
+In Internet explorer, type in 'http://localhost/' to get to the webserver. Have fun!
+
+If you like this, please vote for me on psc ;)
